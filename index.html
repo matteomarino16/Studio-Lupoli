@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+<!-- ============================================================
+     SEO / META
+     ============================================================ -->
+<title>Studio Lupoli | Studio Odontoiatrico a Martina Franca</title>
+<meta name="description" content="Studio Lupoli, studio odontoiatrico a Martina Franca. Professionalità, attenzione e cura della persona.">
+<meta name="author" content="Studio Lupoli — Dott. Domenico Lupoli">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#FFFFFF">
+
+<!-- Sostituire il dominio definitivo quando disponibile -->
+<link rel="canonical" href="https://www.studiolupoli.it/">
+
+<!-- Icone -->
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="it_IT">
+<meta property="og:site_name" content="Studio Lupoli">
+<meta property="og:title" content="Studio Lupoli | Studio Odontoiatrico a Martina Franca">
+<meta property="og:description" content="Studio Lupoli, studio odontoiatrico a Martina Franca. Professionalità, attenzione e cura della persona.">
+<meta property="og:url" content="https://www.studiolupoli.it/">
+<meta property="og:image" content="https://www.studiolupoli.it/assets/images/og-cover.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Studio Lupoli — studio odontoiatrico a Martina Franca">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Studio Lupoli | Studio Odontoiatrico a Martina Franca">
+<meta name="twitter:description" content="Studio odontoiatrico a Martina Franca. Professionalità, attenzione e cura della persona.">
+<meta name="twitter:image" content="https://www.studiolupoli.it/assets/images/og-cover.jpg">
+
+<!-- ============================================================
+     FONTS — sans geometrica per i titoli, Inter per il testo
+     ============================================================ -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+<!-- ============================================================
+     JSON-LD — solo dati realmente disponibili
+     ============================================================ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dentist",
+  "name": "Studio Lupoli",
+  "alternateName": "Studio Odontoiatrico Dott. Domenico Lupoli",
+  "url": "https://www.studiolupoli.it/",
+  "image": "https://www.studiolupoli.it/assets/images/og-cover.jpg",
+  "telephone": "+390804839096",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Vicolo I Mario Pagano, 2",
+    "postalCode": "74015",
+    "addressLocality": "Martina Franca",
+    "addressRegion": "TA",
+    "addressCountry": "IT"
+  },
+  "areaServed": [
+    { "@type": "City", "name": "Martina Franca" },
+    { "@type": "AdministrativeArea", "name": "Provincia di Taranto" },
+    { "@type": "AdministrativeArea", "name": "Puglia" }
+  ],
+  "employee": {
+    "@type": "Person",
+    "name": "Dott. Domenico Lupoli",
+    "jobTitle": "Odontoiatra"
+  }
+}
+</script>
+</head>
+
+<body>
+
+<a class="skip-link" href="#main">Salta al contenuto principale</a>
+
+<div class="scroll-progress" aria-hidden="true"><span class="scroll-progress__bar" data-progress-bar></span></div>
+
+<!-- ============================================================
+     1 · NAVBAR
+     ============================================================ -->
+<header class="nav" data-nav>
+  <div class="nav__inner">
+
+    <a class="brand" href="#top" aria-label="Studio Lupoli — torna all'inizio">
+      <span class="brand__mark" aria-hidden="true">SL</span>
+      <span class="brand__text">
+        <span class="brand__name">Studio Lupoli</span>
+        <span class="brand__sub">Dott. Domenico Lupoli</span>
+      </span>
+    </a>
+
+    <nav class="nav__menu" id="menu-principale" aria-label="Navigazione principale">
+      <ul class="nav__list">
+        <li><a class="nav__link" href="#studio" data-nav-link>Studio</a></li>
+        <li><a class="nav__link" href="#approccio" data-nav-link>Approccio</a></li>
+        <li><a class="nav__link" href="#trattamenti" data-nav-link>Trattamenti</a></li>
+        <li><a class="nav__link" href="#team" data-nav-link>Il Team</a></li>
+        <li><a class="nav__link" href="#contatti" data-nav-link>Contatti</a></li>
+      </ul>
+      <div class="nav__mobile-footer">
+        <a class="nav__mobile-phone" href="tel:+390804839096">080 483 9096</a>
+        <p class="nav__mobile-address">Vicolo I Mario Pagano, 2 — 74015 Martina Franca TA</p>
+      </div>
+    </nav>
+
+    <div class="nav__actions">
+      <a class="nav__phone" href="tel:+390804839096">080 483 9096</a>
+      <a class="btn btn--primary btn--sm nav__cta" href="#richiesta" aria-label="Prenota una visita">
+        <span class="nav__cta-long">Prenota una visita</span>
+        <span class="nav__cta-short" aria-hidden="true">Prenota</span>
+      </a>
+      <button class="burger" type="button" aria-label="Apri il menu" aria-expanded="false" aria-controls="menu-principale" data-burger>
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+      </button>
+    </div>
+
+  </div>
+</header>
+
+<main id="main">
+<span id="top"></span>
+
+<!-- ============================================================
+     2 · HERO
+     ============================================================ -->
+<section class="hero">
+  <div class="hero__grid">
+
+    <div class="hero__text">
+      <p class="eyebrow reveal" data-reveal>Studio odontoiatrico · Martina Franca</p>
+      <h1 class="hero__title reveal" data-reveal data-reveal-delay="1">
+        Il tuo sorriso,<br>la nostra <span class="accent">cura.</span>
+      </h1>
+      <p class="hero__sub reveal" data-reveal data-reveal-delay="2">
+        Odontoiatria contemporanea nel cuore di Martina Franca: diagnosi accurata,
+        percorsi chiari e attenzione alla persona.
+      </p>
+      <div class="hero__actions reveal" data-reveal data-reveal-delay="3">
+        <a class="btn btn--primary" href="#richiesta">Prenota una visita</a>
+        <a class="btn btn--outline" href="#studio">Scopri lo studio</a>
+      </div>
+
+      <ul class="hero__facts reveal" data-reveal data-reveal-delay="4">
+        <li class="fact">
+          <span class="fact__key">Indirizzo</span>
+          <span class="fact__val">Vicolo I Mario Pagano, 2<br>74015 Martina Franca (TA)</span>
+        </li>
+        <li class="fact">
+          <span class="fact__key">Telefono</span>
+          <span class="fact__val"><a class="link" href="tel:+390804839096">080 483 9096</a></span>
+        </li>
+        <li class="fact">
+          <span class="fact__key">Orari</span>
+          <span class="fact__val"><span class="placeholder">[ORARI DA CONFERMARE]</span></span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Immagine dell'hero: sostituibile con qualsiasi render o fotografia
+         mantenendo il nome del file. -->
+    <figure class="hero__media">
+      <picture>
+        <source srcset="assets/images/hero.webp" type="image/webp">
+        <img src="assets/images/hero.png" alt="Dente in marmo bianco, immagine simbolo dello Studio Lupoli" width="672" height="1001" fetchpriority="high" decoding="async" data-fallback="Immagine dell'hero">
+      </picture>
+    </figure>
+
+  </div>
+</section>
+
+<!-- ============================================================
+     3 · INTRO / FILOSOFIA
+     ============================================================ -->
+<section class="section" id="filosofia">
+  <div class="container">
+
+    <div class="split">
+      <div class="split__head">
+        <p class="eyebrow reveal" data-reveal>Il nostro approccio</p>
+        <h2 class="h2 reveal" data-reveal data-reveal-delay="1">
+          Curare un sorriso significa prima di tutto ascoltare una persona.
+        </h2>
+      </div>
+      <div class="split__body">
+        <p class="lead reveal" data-reveal data-reveal-delay="1">
+          Lo Studio Lupoli nasce dall'idea di un'odontoiatria attenta, precisa e costruita
+          intorno alla persona.
+        </p>
+        <p class="reveal" data-reveal data-reveal-delay="2">
+          Ogni percorso parte dall'ascolto, dalla diagnosi e dalla comprensione delle esigenze
+          del paziente: il tempo dedicato alla comprensione è parte della cura, tanto quanto il
+          gesto clinico che ne consegue.
+        </p>
+      </div>
+    </div>
+
+    <ul class="principles">
+      <li class="principle reveal" data-reveal>
+        <span class="principle__num">01</span>
+        <h3 class="principle__title">Ascolto</h3>
+        <p class="principle__text">Capire la persona prima del sintomo.</p>
+      </li>
+      <li class="principle reveal" data-reveal data-reveal-delay="1">
+        <span class="principle__num">02</span>
+        <h3 class="principle__title">Precisione</h3>
+        <p class="principle__text">Un lavoro misurato, in ogni dettaglio.</p>
+      </li>
+      <li class="principle reveal" data-reveal data-reveal-delay="2">
+        <span class="principle__num">03</span>
+        <h3 class="principle__title">Cura</h3>
+        <p class="principle__text">Continuità e attenzione nel tempo.</p>
+      </li>
+    </ul>
+
+  </div>
+</section>
+
+<!-- ============================================================
+     4 · LO STUDIO
+     ============================================================ -->
+<section class="section section--alt" id="studio">
+  <div class="container">
+    <div class="media-grid">
+
+      <figure class="figure media-grid__figure reveal" data-reveal>
+        <img src="assets/images/studio-01.jpg" alt="Interno dello Studio Lupoli" width="1600" height="1200" loading="lazy" decoding="async" data-fallback="Interno dello studio">
+      </figure>
+
+      <div class="media-grid__text">
+        <p class="eyebrow reveal" data-reveal>Lo studio</p>
+        <h2 class="h2 reveal" data-reveal data-reveal-delay="1">Uno spazio pensato per farti sentire bene.</h2>
+        <p class="reveal" data-reveal data-reveal-delay="2">
+          Un ambiente in cui professionalità, attenzione e tecnologia incontrano una dimensione
+          più personale dell'odontoiatria.
+        </p>
+        <p class="reveal" data-reveal data-reveal-delay="2">
+          Ogni scelta — dai tempi della visita al modo in cui viene spiegato un percorso — nasce
+          dal desiderio di rendere l'esperienza più serena e comprensibile per chi la vive.
+        </p>
+        <ul class="checklist reveal" data-reveal data-reveal-delay="3">
+          <li>Prima visita con valutazione e spiegazione del percorso</li>
+          <li>Piani di trattamento chiari, concordati con il paziente</li>
+          <li>Controlli periodici e continuità nel tempo</li>
+        </ul>
+        <a class="btn btn--outline btn--sm reveal" data-reveal data-reveal-delay="3" href="#richiesta">Fissa un appuntamento</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     5 · APPROCCIO
+     ============================================================ -->
+<section class="section" id="approccio">
+  <div class="container">
+
+    <header class="section__head">
+      <div>
+        <p class="eyebrow reveal" data-reveal>Metodo</p>
+        <h2 class="h2 reveal" data-reveal data-reveal-delay="1">Ogni percorso comincia dalla diagnosi.</h2>
+      </div>
+      <p class="section__intro reveal" data-reveal data-reveal-delay="2">
+        Quattro passaggi, sempre gli stessi, per arrivare a una cura costruita sulla situazione reale
+        del paziente.
+      </p>
+    </header>
+
+    <ol class="steps">
+      <li class="step reveal" data-reveal>
+        <span class="step__num">01</span>
+        <h3 class="step__title">Ascoltare</h3>
+        <p class="step__text">Comprendere esigenze, aspettative e necessità del paziente.</p>
+      </li>
+      <li class="step reveal" data-reveal data-reveal-delay="1">
+        <span class="step__num">02</span>
+        <h3 class="step__title">Analizzare</h3>
+        <p class="step__text">Valutare attentamente la situazione clinica prima di definire il percorso.</p>
+      </li>
+      <li class="step reveal" data-reveal data-reveal-delay="2">
+        <span class="step__num">03</span>
+        <h3 class="step__title">Pianificare</h3>
+        <p class="step__text">Costruire un percorso chiaro e personalizzato.</p>
+      </li>
+      <li class="step reveal" data-reveal data-reveal-delay="3">
+        <span class="step__num">04</span>
+        <h3 class="step__title">Curare</h3>
+        <p class="step__text">Procedere con attenzione, precisione e continuità.</p>
+      </li>
+    </ol>
+
+  </div>
+</section>
+
+<!-- ============================================================
+     6 · TRATTAMENTI
+     ============================================================ -->
+<section class="section section--alt" id="trattamenti">
+  <div class="container">
+
+    <header class="section__head">
+      <div>
+        <p class="eyebrow reveal" data-reveal>Trattamenti</p>
+        <h2 class="h2 reveal" data-reveal data-reveal-delay="1">Odontoiatria pensata per ogni esigenza.</h2>
+      </div>
+      <p class="section__intro reveal" data-reveal data-reveal-delay="2">
+        Categorie generali dell'odontoiatria.
+        <span class="placeholder">[ELENCO PRESTAZIONI DA CONFERMARE CON LO STUDIO]</span>
+      </p>
+    </header>
+
+    <ul class="cards">
+      <li class="card reveal" data-reveal>
+        <a class="card__link" href="#richiesta">
+          <span class="card__num">01</span>
+          <h3 class="card__title">Prevenzione</h3>
+          <p class="card__text">Controlli periodici e monitoraggio nel tempo.</p>
+          <span class="card__arrow" aria-hidden="true">→</span>
+        </a>
+      </li>
+      <li class="card reveal" data-reveal data-reveal-delay="1">
+        <a class="card__link" href="#richiesta">
+          <span class="card__num">02</span>
+          <h3 class="card__title">Igiene orale</h3>
+          <p class="card__text">Sedute di igiene professionale e istruzioni domiciliari.</p>
+          <span class="card__arrow" aria-hidden="true">→</span>
+        </a>
+      </li>
+      <li class="card reveal" data-reveal data-reveal-delay="2">
+        <a class="card__link" href="#richiesta">
+          <span class="card__num">03</span>
+          <h3 class="card__title">Conservativa</h3>
+          <p class="card__text">Trattamento del dente naturale nel rispetto della sua struttura.</p>
+          <span class="card__arrow" aria-hidden="true">→</span>
+        </a>
+      </li>
+      <li class="card reveal" data-reveal>
+        <a class="card__link" href="#richiesta">
+          <span class="card__num">04</span>
+          <h3 class="card__title">Protesi</h3>
+          <p class="card__text">Soluzioni per la riabilitazione della funzione e dell'estetica.</p>
+          <span class="card__arrow" aria-hidden="true">→</span>
+        </a>
+      </li>
+      <li class="card reveal" data-reveal data-reveal-delay="1">
+        <a class="card__link" href="#richiesta">
+          <span class="card__num">05</span>
+          <h3 class="card__title">Implantologia</h3>
+          <p class="card__text">Percorsi di sostituzione degli elementi dentari mancanti.</p>
+          <span class="card__arrow" aria-hidden="true">→</span>
+        </a>
+      </li>
+      <li class="card reveal" data-reveal data-reveal-delay="2">
+        <a class="card__link" href="#richiesta">
+          <span class="card__num">06</span>
+          <h3 class="card__title">Estetica del sorriso</h3>
+          <p class="card__text">Armonia, proporzione e naturalezza del risultato.</p>
+          <span class="card__arrow" aria-hidden="true">→</span>
+        </a>
+      </li>
+    </ul>
+
+  </div>
+</section>
+
+<!-- ============================================================
+     7 · TECNOLOGIA / PRECISIONE
+     ============================================================ -->
+<section class="section section--dark" id="tecnologia">
+  <div class="container">
+    <div class="precision">
+
+      <div class="precision__text">
+        <p class="eyebrow eyebrow--light reveal" data-reveal>Precisione</p>
+        <h2 class="h2 reveal" data-reveal data-reveal-delay="1">La precisione è parte della cura.</h2>
+        <p class="reveal" data-reveal data-reveal-delay="2">
+          Diagnosi accurata, pianificazione e verifica costante del risultato: la tecnologia è uno
+          strumento al servizio del giudizio clinico, non un fine.
+        </p>
+        <p class="reveal" data-reveal data-reveal-delay="3">
+          <span class="placeholder placeholder--light">[TECNOLOGIA E STRUMENTAZIONE DA CONFERMARE]</span>
+        </p>
+      </div>
+
+      <ul class="pillars">
+        <li class="pillar reveal" data-reveal><span class="pillar__num">01</span><span class="pillar__word">Diagnosi</span></li>
+        <li class="pillar reveal" data-reveal data-reveal-delay="1"><span class="pillar__num">02</span><span class="pillar__word">Precisione</span></li>
+        <li class="pillar reveal" data-reveal data-reveal-delay="2"><span class="pillar__num">03</span><span class="pillar__word">Tecnologia</span></li>
+        <li class="pillar reveal" data-reveal data-reveal-delay="3"><span class="pillar__num">04</span><span class="pillar__word">Controllo</span></li>
+      </ul>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     8 · DOTT. DOMENICO LUPOLI
+     ============================================================ -->
+<section class="section" id="team">
+  <div class="container">
+
+    <header class="section__head">
+      <div>
+        <p class="eyebrow reveal" data-reveal>Il team</p>
+        <h2 class="h2 reveal" data-reveal data-reveal-delay="1">Le persone dello Studio.</h2>
+      </div>
+      <p class="section__intro reveal" data-reveal data-reveal-delay="2">
+        Chi ti accoglie e ti segue, dalla prima visita ai controlli nel tempo.
+      </p>
+    </header>
+
+    <!-- Titolare -->
+    <div class="doctor">
+
+      <figure class="figure doctor__figure reveal" data-reveal>
+        <img src="assets/images/doctor.jpg" alt="Ritratto del Dott. Domenico Lupoli" width="1200" height="1500" loading="lazy" decoding="async" data-fallback="Ritratto del dottore">
+      </figure>
+
+      <div class="doctor__text">
+        <p class="eyebrow reveal" data-reveal>Titolare dello studio</p>
+        <h3 class="h3-lg reveal" data-reveal data-reveal-delay="1">Dott. Domenico Lupoli</h3>
+        <p class="lead reveal" data-reveal data-reveal-delay="2">
+          Odontoiatra, titolare dello Studio Lupoli di Martina Franca.
+        </p>
+        <p class="reveal" data-reveal data-reveal-delay="2">
+          <span class="placeholder">[BIOGRAFIA PROFESSIONALE DA FORNIRE]</span> — questo spazio è predisposto
+          per accogliere il percorso formativo, gli ambiti di interesse clinico e il modo di intendere
+          la professione.
+        </p>
+
+        <dl class="datalist reveal" data-reveal data-reveal-delay="3">
+          <div class="datalist__row">
+            <dt>Formazione</dt>
+            <dd><span class="placeholder">[DA FORNIRE]</span></dd>
+          </div>
+          <div class="datalist__row">
+            <dt>Ambiti di interesse</dt>
+            <dd><span class="placeholder">[DA FORNIRE]</span></dd>
+          </div>
+          <div class="datalist__row">
+            <dt>Iscrizione albo</dt>
+            <dd><span class="placeholder">[N. ISCRIZIONE DA FORNIRE]</span></dd>
+          </div>
+        </dl>
+      </div>
+
+    </div>
+
+    <!-- Resto del team — duplicare un <li class="member"> per ogni persona -->
+    <ul class="team">
+      <li class="member reveal" data-reveal>
+        <figure class="figure member__figure">
+          <img src="assets/images/team-01.jpg" alt="Ritratto di un membro del team dello Studio Lupoli" width="1000" height="1250" loading="lazy" decoding="async" data-fallback="Membro del team">
+        </figure>
+        <h3 class="member__name"><span class="placeholder">[NOME E COGNOME]</span></h3>
+        <p class="member__role"><span class="placeholder">[RUOLO DA FORNIRE]</span></p>
+      </li>
+      <li class="member reveal" data-reveal data-reveal-delay="1">
+        <figure class="figure member__figure">
+          <img src="assets/images/team-02.jpg" alt="Ritratto di un membro del team dello Studio Lupoli" width="1000" height="1250" loading="lazy" decoding="async" data-fallback="Membro del team">
+        </figure>
+        <h3 class="member__name"><span class="placeholder">[NOME E COGNOME]</span></h3>
+        <p class="member__role"><span class="placeholder">[RUOLO DA FORNIRE]</span></p>
+      </li>
+      <li class="member reveal" data-reveal data-reveal-delay="2">
+        <figure class="figure member__figure">
+          <img src="assets/images/team-03.jpg" alt="Ritratto di un membro del team dello Studio Lupoli" width="1000" height="1250" loading="lazy" decoding="async" data-fallback="Membro del team">
+        </figure>
+        <h3 class="member__name"><span class="placeholder">[NOME E COGNOME]</span></h3>
+        <p class="member__role"><span class="placeholder">[RUOLO DA FORNIRE]</span></p>
+      </li>
+    </ul>
+
+  </div>
+</section>
+
+<!-- ============================================================
+     9 · SOCIAL
+     Sostituire i tre href con gli indirizzi reali dei profili.
+     ============================================================ -->
+<section class="section" id="social">
+  <div class="container">
+
+    <header class="section__head">
+      <div>
+        <p class="eyebrow reveal" data-reveal>Social</p>
+        <h2 class="h2 reveal" data-reveal data-reveal-delay="1">Seguici sui social.</h2>
+      </div>
+      <p class="section__intro reveal" data-reveal data-reveal-delay="2">
+        Aggiornamenti, consigli di prevenzione e la vita dello studio.
+        <span class="placeholder">[PROFILI DA CONFERMARE]</span>
+      </p>
+    </header>
+
+    <ul class="socials">
+      <li class="social reveal" data-reveal>
+        <a class="social__link" href="#" target="_blank" rel="noopener noreferrer" aria-label="Studio Lupoli su Instagram">
+          <span class="social__icon social__icon--ig" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="currentColor" focusable="false">
+              <path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41-.56-.22-.96-.48-1.38-.9-.42-.42-.68-.82-.9-1.38-.16-.42-.36-1.06-.41-2.23C2.17 15.58 2.16 15.2 2.16 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.42 2.17 8.8 2.16 12 2.16M12 0C8.74 0 8.33.01 7.05.07 5.78.13 4.9.33 4.15.63c-.79.3-1.46.71-2.13 1.38C1.35 2.68.94 3.35.63 4.15.33 4.9.13 5.78.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.27.26 2.15.56 2.9.3.79.71 1.46 1.38 2.13.67.67 1.34 1.08 2.13 1.38.75.3 1.63.5 2.9.56C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c1.27-.06 2.15-.26 2.9-.56.79-.3 1.46-.71 2.13-1.38.67-.67 1.08-1.34 1.38-2.13.3-.75.5-1.63.56-2.9.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.27-.26-2.15-.56-2.9-.3-.79-.71-1.46-1.38-2.13C21.31 1.35 20.64.94 19.85.63c-.75-.3-1.63-.5-2.9-.56C15.67.01 15.26 0 12 0Z"/>
+              <path d="M12 5.84A6.16 6.16 0 1 0 18.16 12 6.16 6.16 0 0 0 12 5.84Zm0 10.16A4 4 0 1 1 16 12a4 4 0 0 1-4 4Z"/>
+              <circle cx="18.41" cy="5.59" r="1.44"/>
+            </svg>
+          </span>
+          <span class="social__text">
+            <span class="social__name">Instagram</span>
+            <span class="social__handle placeholder">[@PROFILO]</span>
+          </span>
+          <span class="social__arrow" aria-hidden="true">↗</span>
+        </a>
+      </li>
+
+      <li class="social reveal" data-reveal data-reveal-delay="1">
+        <a class="social__link" href="#" target="_blank" rel="noopener noreferrer" aria-label="Studio Lupoli su Facebook">
+          <span class="social__icon social__icon--fb" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="currentColor" focusable="false">
+              <path d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.68.24 2.68.24v2.96h-1.51c-1.49 0-1.96.93-1.96 1.89v2.26h3.33l-.53 3.49h-2.8V24C19.61 23.1 24 18.1 24 12.07Z"/>
+            </svg>
+          </span>
+          <span class="social__text">
+            <span class="social__name">Facebook</span>
+            <span class="social__handle placeholder">[PAGINA]</span>
+          </span>
+          <span class="social__arrow" aria-hidden="true">↗</span>
+        </a>
+      </li>
+
+      <li class="social reveal" data-reveal data-reveal-delay="2">
+        <a class="social__link" href="#" target="_blank" rel="noopener noreferrer" aria-label="Studio Lupoli su LinkedIn">
+          <span class="social__icon social__icon--li" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="currentColor" focusable="false">
+              <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05a3.74 3.74 0 0 1 3.37-1.85c3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.22.79 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/>
+            </svg>
+          </span>
+          <span class="social__text">
+            <span class="social__name">LinkedIn</span>
+            <span class="social__handle placeholder">[PROFILO]</span>
+          </span>
+          <span class="social__arrow" aria-hidden="true">↗</span>
+        </a>
+      </li>
+    </ul>
+
+  </div>
+</section>
+
+<!-- ============================================================
+     10 · STUDIO / AMBIENTI — GALLERY
+     ============================================================ -->
+<section class="section section--alt" id="ambienti">
+  <div class="container">
+
+    <header class="section__head">
+      <div>
+        <p class="eyebrow reveal" data-reveal>Ambienti</p>
+        <h2 class="h2 reveal" data-reveal data-reveal-delay="1">Lo studio, da vicino.</h2>
+      </div>
+      <p class="section__intro reveal" data-reveal data-reveal-delay="2">
+        Seleziona una fotografia per ingrandirla.
+      </p>
+    </header>
+
+    <div class="gallery" data-gallery>
+      <figure class="gallery__item reveal" data-reveal>
+        <button class="gallery__btn" type="button" aria-label="Apri l'immagine: sala operativa">
+          <img src="assets/images/studio-01.jpg" alt="Sala operativa dello Studio Lupoli" width="1200" height="900" loading="lazy" decoding="async" data-fallback="Sala operativa">
+        </button>
+      </figure>
+      <figure class="gallery__item reveal" data-reveal data-reveal-delay="1">
+        <button class="gallery__btn" type="button" aria-label="Apri l'immagine: dettaglio degli ambienti">
+          <img src="assets/images/studio-02.jpg" alt="Dettaglio degli ambienti dello studio" width="900" height="900" loading="lazy" decoding="async" data-fallback="Dettaglio ambienti">
+        </button>
+      </figure>
+      <figure class="gallery__item reveal" data-reveal data-reveal-delay="2">
+        <button class="gallery__btn" type="button" aria-label="Apri l'immagine: area accoglienza">
+          <img src="assets/images/studio-03.jpg" alt="Area di accoglienza dello studio" width="900" height="900" loading="lazy" decoding="async" data-fallback="Accoglienza">
+        </button>
+      </figure>
+      <figure class="gallery__item reveal" data-reveal data-reveal-delay="1">
+        <button class="gallery__btn" type="button" aria-label="Apri l'immagine: postazione di lavoro">
+          <img src="assets/images/treatment-01.jpg" alt="Postazione di lavoro dello studio" width="1200" height="900" loading="lazy" decoding="async" data-fallback="Postazione di lavoro">
+        </button>
+      </figure>
+      <figure class="gallery__item reveal" data-reveal data-reveal-delay="2">
+        <button class="gallery__btn" type="button" aria-label="Apri l'immagine: veduta degli spazi">
+          <img src="assets/images/treatment-02.jpg" alt="Veduta degli spazi dello studio" width="1200" height="900" loading="lazy" decoding="async" data-fallback="Veduta degli spazi">
+        </button>
+      </figure>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================================================
+     11 · CALL TO ACTION
+     ============================================================ -->
+<section class="section section--cta">
+  <div class="container">
+    <div class="cta">
+      <div class="cta__text">
+        <h2 class="h2 reveal" data-reveal>Cominciamo da una prima visita.</h2>
+        <p class="reveal" data-reveal data-reveal-delay="1">
+          Per informazioni o per fissare un appuntamento, contatta lo Studio Lupoli.
+        </p>
+      </div>
+      <div class="cta__actions reveal" data-reveal data-reveal-delay="2">
+        <a class="btn btn--primary" href="#richiesta">Prenota una visita</a>
+        <a class="btn btn--outline" href="tel:+390804839096">Chiama · 080 483 9096</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     12 · FORM DI CONTATTO
+     Senza back-end il messaggio viene aperto nel client di posta.
+     Per inviarlo da server: impostare action/method del <form> con
+     l'endpoint scelto e rimuovere l'attributo data-mailto.
+     ============================================================ -->
+<section class="section section--alt" id="richiesta">
+  <div class="container">
+
+    <header class="section__head">
+      <div>
+        <p class="eyebrow reveal" data-reveal>Scrivici</p>
+        <h2 class="h2 reveal" data-reveal data-reveal-delay="1">Richiedi un appuntamento.</h2>
+      </div>
+      <p class="section__intro reveal" data-reveal data-reveal-delay="2">
+        Compila il modulo: ti ricontattiamo per confermare data e orario.
+        Per urgenze chiama lo <a class="link" href="tel:+390804839096">080 483 9096</a>.
+      </p>
+    </header>
+
+    <form class="form reveal" data-reveal novalidate data-contact-form data-mailto="info@studiolupoli.it">
+
+      <div class="form__row">
+        <div class="field">
+          <label class="field__label" for="f-nome">Nome e cognome <span class="field__req" aria-hidden="true">*</span></label>
+          <input class="field__input" type="text" id="f-nome" name="nome" autocomplete="name" required aria-describedby="e-nome">
+          <p class="field__error" id="e-nome" hidden>Inserisci il tuo nome.</p>
+        </div>
+
+        <div class="field">
+          <label class="field__label" for="f-tel">Telefono <span class="field__req" aria-hidden="true">*</span></label>
+          <input class="field__input" type="tel" id="f-tel" name="telefono" autocomplete="tel" inputmode="tel" required aria-describedby="e-tel">
+          <p class="field__error" id="e-tel" hidden>Inserisci un numero di telefono.</p>
+        </div>
+      </div>
+
+      <div class="form__row">
+        <div class="field">
+          <label class="field__label" for="f-email">Email</label>
+          <input class="field__input" type="email" id="f-email" name="email" autocomplete="email" inputmode="email" aria-describedby="e-email">
+          <p class="field__error" id="e-email" hidden>Controlla l'indirizzo email.</p>
+        </div>
+
+        <div class="field">
+          <label class="field__label" for="f-motivo">Motivo della visita</label>
+          <select class="field__input" id="f-motivo" name="motivo">
+            <option value="Prima visita">Prima visita</option>
+            <option value="Igiene orale">Igiene orale</option>
+            <option value="Controllo">Controllo periodico</option>
+            <option value="Altro">Altro</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="field__label" for="f-msg">Messaggio</label>
+        <textarea class="field__input field__input--area" id="f-msg" name="messaggio" rows="4" placeholder="Raccontaci brevemente di cosa hai bisogno."></textarea>
+      </div>
+
+      <!-- campo trappola anti-spam: invisibile alle persone -->
+      <div class="field field--trap" aria-hidden="true">
+        <label for="f-azienda">Azienda</label>
+        <input type="text" id="f-azienda" name="azienda" tabindex="-1" autocomplete="off">
+      </div>
+
+      <div class="field field--check">
+        <input class="check__input" type="checkbox" id="f-privacy" name="privacy" required aria-describedby="e-privacy">
+        <label class="check__label" for="f-privacy">
+          Ho letto l'<a class="link" href="#">informativa privacy</a> e acconsento al trattamento dei miei dati
+          per essere ricontattato. <span class="field__req" aria-hidden="true">*</span>
+        </label>
+        <p class="field__error" id="e-privacy" hidden>È necessario il consenso per procedere.</p>
+      </div>
+
+      <div class="form__foot">
+        <button class="btn btn--primary" type="submit">Invia la richiesta</button>
+        <p class="form__note">I campi con <span aria-hidden="true">*</span> sono obbligatori.</p>
+      </div>
+
+      <p class="form__status" data-form-status role="status" aria-live="polite" hidden></p>
+    </form>
+
+  </div>
+</section>
+
+<!-- ============================================================
+     13 · CONTATTI
+     ============================================================ -->
+<section class="section" id="contatti">
+  <div class="container">
+
+    <header class="section__head">
+      <div>
+        <p class="eyebrow reveal" data-reveal>Contatti</p>
+        <h2 class="h2 reveal" data-reveal data-reveal-delay="1">Dove trovarci.</h2>
+      </div>
+      <p class="section__intro reveal" data-reveal data-reveal-delay="2">
+        Lo studio si trova nel centro di Martina Franca, in provincia di Taranto.
+      </p>
+    </header>
+
+    <div class="contact">
+
+      <div class="contact__info reveal" data-reveal>
+        <address class="contact__address">
+          <p class="contact__block">
+            <span class="contact__key">Indirizzo</span>
+            Vicolo I Mario Pagano, 2<br>
+            74015 Martina Franca TA
+          </p>
+          <p class="contact__block">
+            <span class="contact__key">Telefono</span>
+            <a class="contact__phone" href="tel:+390804839096">080 483 9096</a>
+          </p>
+          <p class="contact__block">
+            <span class="contact__key">Orari</span>
+            <span class="placeholder">[ORARI DI APERTURA DA CONFERMARE]</span>
+          </p>
+        </address>
+
+        <div class="contact__actions">
+          <a class="btn btn--primary btn--sm" href="tel:+390804839096">Chiama</a>
+          <a class="btn btn--outline btn--sm" href="https://www.google.com/maps/search/?api=1&amp;query=Studio+Lupoli+Vicolo+I+Mario+Pagano+2+74015+Martina+Franca+TA" target="_blank" rel="noopener noreferrer">Indicazioni stradali</a>
+        </div>
+      </div>
+
+      <div class="contact__map reveal" data-reveal data-reveal-delay="1">
+        <!-- Mappa: sostituibile con un embed personalizzato mantenendo width/height al 100% -->
+        <iframe
+          title="Mappa: Studio Lupoli, Vicolo I Mario Pagano 2, Martina Franca (TA)"
+          src="https://www.google.com/maps?q=Vicolo%20I%20Mario%20Pagano%202%2C%2074015%20Martina%20Franca%20TA&amp;output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen></iframe>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============================================================
+     14 · FOOTER
+     ============================================================ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+
+      <div class="footer__brand">
+        <span class="brand__mark brand__mark--light" aria-hidden="true">SL</span>
+        <p class="footer__name">Studio Lupoli</p>
+        <p class="footer__doc">Dott. Domenico Lupoli</p>
+      </div>
+
+      <div class="footer__col">
+        <p class="footer__key">Studio</p>
+        <p>Studio Odontoiatrico<br>Martina Franca · Puglia</p>
+      </div>
+
+      <div class="footer__col">
+        <p class="footer__key">Contatti</p>
+        <p>
+          Vicolo I Mario Pagano, 2<br>
+          74015 Martina Franca TA<br>
+          <a class="link" href="tel:+390804839096">080 483 9096</a>
+        </p>
+      </div>
+
+      <div class="footer__col">
+        <p class="footer__key">Informazioni</p>
+        <p>
+          <a class="link" href="#">Privacy Policy</a><br>
+          <a class="link" href="#">Cookie Policy</a>
+        </p>
+      </div>
+
+    </div>
+
+    <div class="footer__bottom">
+      <p>&copy; 2026 Studio Lupoli — Tutti i diritti riservati.</p>
+      <a class="footer__top" href="#top">Torna su <span aria-hidden="true">↑</span></a>
+    </div>
+
+    <p class="footer__credit">
+      Web by <a href="https://www.instagram.com/_matteomarino" target="_blank" rel="noopener noreferrer">Matteo Marino</a>
+    </p>
+  </div>
+</footer>
+
+<!-- ============================================================
+     AZIONI RAPIDE — telefono a sinistra, WhatsApp a destra
+     Sostituire il numero WhatsApp con quello realmente attivo.
+     ============================================================ -->
+<div class="quick">
+  <a class="quick__btn quick__btn--call" href="tel:+390804839096" aria-label="Chiama lo Studio Lupoli">
+    <svg class="quick__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/>
+    </svg>
+    <span class="quick__label">Chiama</span>
+  </a>
+
+  <a class="quick__btn quick__btn--wa" href="https://wa.me/390804839096" target="_blank" rel="noopener noreferrer" aria-label="Scrivi allo Studio Lupoli su WhatsApp">
+    <svg class="quick__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+      <path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.47-2.39-1.48-.89-.79-1.48-1.76-1.66-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.66-1.61-.91-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.22 3.07c.15.2 2.1 3.2 5.08 4.49.7.3 1.26.49 1.69.62.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2-1.41.25-.7.25-1.29.18-1.42-.08-.12-.27-.2-.57-.35M12.05 21.79h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.89 9.89-9.89 2.64 0 5.12 1.03 6.99 2.9a9.83 9.83 0 0 1 2.89 6.99c0 5.45-4.43 9.89-9.88 9.89M20.46 3.49A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.15 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.69 1.45h.005c6.55 0 11.89-5.34 11.89-11.89a11.82 11.82 0 0 0-3.48-8.42Z"/>
+    </svg>
+    <span class="quick__label">WhatsApp</span>
+  </a>
+</div>
+
+<!-- ============================================================
+     LIGHTBOX
+     ============================================================ -->
+<div class="lightbox" role="dialog" aria-modal="true" aria-label="Immagine ingrandita" hidden data-lightbox>
+  <button class="lightbox__close" type="button" aria-label="Chiudi" data-lightbox-close>&times;</button>
+  <button class="lightbox__nav lightbox__nav--prev" type="button" aria-label="Immagine precedente" data-lightbox-prev>&#8249;</button>
+  <figure class="lightbox__figure">
+    <img alt="" data-lightbox-img>
+    <figcaption class="lightbox__caption" data-lightbox-caption></figcaption>
+  </figure>
+  <button class="lightbox__nav lightbox__nav--next" type="button" aria-label="Immagine successiva" data-lightbox-next>&#8250;</button>
+</div>
+
+<script src="script.js" defer></script>
+</body>
+</html>
