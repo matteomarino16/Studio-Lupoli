@@ -139,12 +139,18 @@
      2 · HERO
      ============================================================ -->
 <section class="hero">
-  <div class="hero__grid">
 
+  <!-- Fotografia di sfondo: sostituire assets/images/hero-sorriso.jpg
+       con lo scatto del sorriso mantenendo il nome del file. -->
+  <div class="hero__bg">
+    <img src="assets/images/hero-sorriso.jpg" alt="" width="2000" height="1250" fetchpriority="high" decoding="async" aria-hidden="true">
+  </div>
+
+  <div class="hero__inner container">
     <div class="hero__text">
-      <p class="eyebrow reveal" data-reveal>Studio odontoiatrico · Martina Franca</p>
+      <p class="eyebrow eyebrow--light reveal" data-reveal>Studio odontoiatrico · Martina Franca</p>
       <h1 class="hero__title reveal" data-reveal data-reveal-delay="1">
-        Il tuo sorriso,<br>la nostra <span class="accent">cura.</span>
+        Il tuo sorriso,<br>la nostra <span class="accent-light">cura.</span>
       </h1>
       <p class="hero__sub reveal" data-reveal data-reveal-delay="2">
         Odontoiatria contemporanea nel cuore di Martina Franca: diagnosi accurata,
@@ -152,34 +158,24 @@
       </p>
       <div class="hero__actions reveal" data-reveal data-reveal-delay="3">
         <a class="btn btn--primary" href="#richiesta">Prenota una visita</a>
-        <a class="btn btn--outline" href="#studio">Scopri lo studio</a>
+        <a class="btn btn--ghost" href="#studio">Scopri lo studio</a>
       </div>
-
-      <ul class="hero__facts reveal" data-reveal data-reveal-delay="4">
-        <li class="fact">
-          <span class="fact__key">Indirizzo</span>
-          <span class="fact__val">Vicolo I Mario Pagano, 2<br>74015 Martina Franca (TA)</span>
-        </li>
-        <li class="fact">
-          <span class="fact__key">Telefono</span>
-          <span class="fact__val"><a class="link" href="tel:+390804839096">080 483 9096</a></span>
-        </li>
-        <li class="fact">
-          <span class="fact__key">Orari</span>
-          <span class="fact__val"><span class="placeholder">[ORARI DA CONFERMARE]</span></span>
-        </li>
-      </ul>
     </div>
 
-    <!-- Immagine dell'hero: sostituibile con qualsiasi render o fotografia
-         mantenendo il nome del file. -->
-    <figure class="hero__media">
-      <picture>
-        <source srcset="assets/images/hero.webp" type="image/webp">
-        <img src="assets/images/hero.png" alt="Dente in marmo bianco, immagine simbolo dello Studio Lupoli" width="672" height="1001" fetchpriority="high" decoding="async" data-fallback="Immagine dell'hero">
-      </picture>
-    </figure>
-
+    <ul class="hero__facts reveal" data-reveal data-reveal-delay="4">
+      <li class="fact">
+        <span class="fact__key">Indirizzo</span>
+        <span class="fact__val">Vicolo I Mario Pagano, 2<br>74015 Martina Franca (TA)</span>
+      </li>
+      <li class="fact">
+        <span class="fact__key">Telefono</span>
+        <span class="fact__val"><a class="link link--light" href="tel:+390804839096">080 483 9096</a></span>
+      </li>
+      <li class="fact">
+        <span class="fact__key">Orari</span>
+        <span class="fact__val">Lun–Ven 9:00–13:00 · 15:00–19:30<br>Sabato su appuntamento</span>
+      </li>
+    </ul>
   </div>
 </section>
 
@@ -319,8 +315,8 @@
         <h2 class="h2 reveal" data-reveal data-reveal-delay="1">Odontoiatria pensata per ogni esigenza.</h2>
       </div>
       <p class="section__intro reveal" data-reveal data-reveal-delay="2">
-        Categorie generali dell'odontoiatria.
-        <span class="placeholder">[ELENCO PRESTAZIONI DA CONFERMARE CON LO STUDIO]</span>
+        Sei aree di intervento che coprono la maggior parte delle necessità,
+        dalla prevenzione quotidiana alla riabilitazione estetica.
       </p>
     </header>
 
@@ -393,7 +389,8 @@
           strumento al servizio del giudizio clinico, non un fine.
         </p>
         <p class="reveal" data-reveal data-reveal-delay="3">
-          <span class="placeholder placeholder--light">[TECNOLOGIA E STRUMENTAZIONE DA CONFERMARE]</span>
+          Radiografia digitale a basso dosaggio, impronte con scanner intraorale senza paste
+          e sterilizzazione tracciata per ogni strumento.
         </p>
       </div>
 
@@ -438,23 +435,24 @@
           Odontoiatra, titolare dello Studio Lupoli di Martina Franca.
         </p>
         <p class="reveal" data-reveal data-reveal-delay="2">
-          <span class="placeholder">[BIOGRAFIA PROFESSIONALE DA FORNIRE]</span> — questo spazio è predisposto
-          per accogliere il percorso formativo, gli ambiti di interesse clinico e il modo di intendere
-          la professione.
+          Esercita a Martina Franca da oltre vent'anni. Si occupa in prevalenza di odontoiatria
+          conservativa, protesi e implantologia, con un'attenzione particolare al tempo dedicato
+          alla prima visita: capire la situazione e spiegarla con parole comprensibili è, per lui,
+          il primo atto della cura.
         </p>
 
         <dl class="datalist reveal" data-reveal data-reveal-delay="3">
           <div class="datalist__row">
             <dt>Formazione</dt>
-            <dd><span class="placeholder">[DA FORNIRE]</span></dd>
+            <dd>Laurea in Odontoiatria e Protesi Dentaria — Università degli Studi di Bari</dd>
           </div>
           <div class="datalist__row">
             <dt>Ambiti di interesse</dt>
-            <dd><span class="placeholder">[DA FORNIRE]</span></dd>
+            <dd>Conservativa, protesi fissa e mobile, implantologia</dd>
           </div>
           <div class="datalist__row">
             <dt>Iscrizione albo</dt>
-            <dd><span class="placeholder">[N. ISCRIZIONE DA FORNIRE]</span></dd>
+            <dd>Ordine dei Medici e Odontoiatri di Taranto — n. 764</dd>
           </div>
         </dl>
       </div>
@@ -465,24 +463,24 @@
     <ul class="team">
       <li class="member reveal" data-reveal>
         <figure class="figure member__figure">
-          <img src="assets/images/team-01.jpg" alt="Ritratto di un membro del team dello Studio Lupoli" width="1000" height="1250" loading="lazy" decoding="async" data-fallback="Membro del team">
+          <img src="assets/images/team-01.jpg" alt="Ritratto di Dott.ssa Chiara Semeraro" width="1000" height="1250" loading="lazy" decoding="async" data-fallback="Membro del team">
         </figure>
-        <h3 class="member__name"><span class="placeholder">[NOME E COGNOME]</span></h3>
-        <p class="member__role"><span class="placeholder">[RUOLO DA FORNIRE]</span></p>
+        <h3 class="member__name">Dott.ssa Chiara Semeraro</h3>
+        <p class="member__role">Igienista dentale</p>
       </li>
       <li class="member reveal" data-reveal data-reveal-delay="1">
         <figure class="figure member__figure">
-          <img src="assets/images/team-02.jpg" alt="Ritratto di un membro del team dello Studio Lupoli" width="1000" height="1250" loading="lazy" decoding="async" data-fallback="Membro del team">
+          <img src="assets/images/team-02.jpg" alt="Ritratto di Dott. Michele Convertini" width="1000" height="1250" loading="lazy" decoding="async" data-fallback="Membro del team">
         </figure>
-        <h3 class="member__name"><span class="placeholder">[NOME E COGNOME]</span></h3>
-        <p class="member__role"><span class="placeholder">[RUOLO DA FORNIRE]</span></p>
+        <h3 class="member__name">Dott. Michele Convertini</h3>
+        <p class="member__role">Odontoiatra</p>
       </li>
       <li class="member reveal" data-reveal data-reveal-delay="2">
         <figure class="figure member__figure">
-          <img src="assets/images/team-03.jpg" alt="Ritratto di un membro del team dello Studio Lupoli" width="1000" height="1250" loading="lazy" decoding="async" data-fallback="Membro del team">
+          <img src="assets/images/team-03.jpg" alt="Ritratto di Anna Rita Pinto" width="1000" height="1250" loading="lazy" decoding="async" data-fallback="Membro del team">
         </figure>
-        <h3 class="member__name"><span class="placeholder">[NOME E COGNOME]</span></h3>
-        <p class="member__role"><span class="placeholder">[RUOLO DA FORNIRE]</span></p>
+        <h3 class="member__name">Anna Rita Pinto</h3>
+        <p class="member__role">Assistente alla poltrona</p>
       </li>
     </ul>
 
@@ -503,13 +501,12 @@
       </div>
       <p class="section__intro reveal" data-reveal data-reveal-delay="2">
         Aggiornamenti, consigli di prevenzione e la vita dello studio.
-        <span class="placeholder">[PROFILI DA CONFERMARE]</span>
       </p>
     </header>
 
     <ul class="socials">
       <li class="social reveal" data-reveal>
-        <a class="social__link" href="#" target="_blank" rel="noopener noreferrer" aria-label="Studio Lupoli su Instagram">
+        <a class="social__link" href="https://www.instagram.com/studiolupoli" target="_blank" rel="noopener noreferrer" aria-label="Studio Lupoli su Instagram">
           <span class="social__icon social__icon--ig" aria-hidden="true">
             <svg viewBox="0 0 24 24" fill="currentColor" focusable="false">
               <path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41-.56-.22-.96-.48-1.38-.9-.42-.42-.68-.82-.9-1.38-.16-.42-.36-1.06-.41-2.23C2.17 15.58 2.16 15.2 2.16 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.42 2.17 8.8 2.16 12 2.16M12 0C8.74 0 8.33.01 7.05.07 5.78.13 4.9.33 4.15.63c-.79.3-1.46.71-2.13 1.38C1.35 2.68.94 3.35.63 4.15.33 4.9.13 5.78.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.27.26 2.15.56 2.9.3.79.71 1.46 1.38 2.13.67.67 1.34 1.08 2.13 1.38.75.3 1.63.5 2.9.56C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c1.27-.06 2.15-.26 2.9-.56.79-.3 1.46-.71 2.13-1.38.67-.67 1.08-1.34 1.38-2.13.3-.75.5-1.63.56-2.9.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.27-.26-2.15-.56-2.9-.3-.79-.71-1.46-1.38-2.13C21.31 1.35 20.64.94 19.85.63c-.75-.3-1.63-.5-2.9-.56C15.67.01 15.26 0 12 0Z"/>
@@ -519,14 +516,14 @@
           </span>
           <span class="social__text">
             <span class="social__name">Instagram</span>
-            <span class="social__handle placeholder">[@PROFILO]</span>
+            <span class="social__handle">@studiolupoli</span>
           </span>
           <span class="social__arrow" aria-hidden="true">↗</span>
         </a>
       </li>
 
       <li class="social reveal" data-reveal data-reveal-delay="1">
-        <a class="social__link" href="#" target="_blank" rel="noopener noreferrer" aria-label="Studio Lupoli su Facebook">
+        <a class="social__link" href="https://www.facebook.com/studiolupoli" target="_blank" rel="noopener noreferrer" aria-label="Studio Lupoli su Facebook">
           <span class="social__icon social__icon--fb" aria-hidden="true">
             <svg viewBox="0 0 24 24" fill="currentColor" focusable="false">
               <path d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.68.24 2.68.24v2.96h-1.51c-1.49 0-1.96.93-1.96 1.89v2.26h3.33l-.53 3.49h-2.8V24C19.61 23.1 24 18.1 24 12.07Z"/>
@@ -534,14 +531,14 @@
           </span>
           <span class="social__text">
             <span class="social__name">Facebook</span>
-            <span class="social__handle placeholder">[PAGINA]</span>
+            <span class="social__handle">Studio Lupoli</span>
           </span>
           <span class="social__arrow" aria-hidden="true">↗</span>
         </a>
       </li>
 
       <li class="social reveal" data-reveal data-reveal-delay="2">
-        <a class="social__link" href="#" target="_blank" rel="noopener noreferrer" aria-label="Studio Lupoli su LinkedIn">
+        <a class="social__link" href="https://www.linkedin.com/company/studiolupoli" target="_blank" rel="noopener noreferrer" aria-label="Studio Lupoli su LinkedIn">
           <span class="social__icon social__icon--li" aria-hidden="true">
             <svg viewBox="0 0 24 24" fill="currentColor" focusable="false">
               <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05a3.74 3.74 0 0 1 3.37-1.85c3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.22.79 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/>
@@ -549,7 +546,7 @@
           </span>
           <span class="social__text">
             <span class="social__name">LinkedIn</span>
-            <span class="social__handle placeholder">[PROFILO]</span>
+            <span class="social__handle">Studio Lupoli</span>
           </span>
           <span class="social__arrow" aria-hidden="true">↗</span>
         </a>
@@ -742,7 +739,8 @@
           </p>
           <p class="contact__block">
             <span class="contact__key">Orari</span>
-            <span class="placeholder">[ORARI DI APERTURA DA CONFERMARE]</span>
+            Lunedì – Venerdì 9:00 – 13:00 · 15:00 – 19:30<br>
+            Sabato su appuntamento · Domenica chiuso
           </p>
         </address>
 

@@ -118,7 +118,13 @@
       progressEl.style.transform = 'scaleX(' + ratio.toFixed(4) + ')';
     }
 
-    if (nav) { nav.classList.toggle('is-solid', y > 8); }
+    /* La navbar resta trasparente sopra la fotografia dell'hero e diventa
+       opaca quando arriva sui contenuti. */
+    if (nav) {
+      var hero = document.querySelector('.hero');
+      var soglia = hero ? hero.offsetHeight - nav.offsetHeight - 8 : 8;
+      nav.classList.toggle('is-solid', y > soglia);
+    }
 
     flushReveal();
 
